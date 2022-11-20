@@ -5,4 +5,14 @@
 
 int _printf(const char *format, ...);
 
+/**
+ *
+ */
+
+typedef struct format
+{
+	char *opt;
+	int (*call_fun)();
+} form_t;
+
 #endif
