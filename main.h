@@ -22,6 +22,8 @@
 #define S_LONG 2
 #define S_SHORT 1
 
+int _putchar(char c);
+
 /**
  * struct format - struct op
  * @format: the format
