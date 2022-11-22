@@ -15,8 +15,4 @@ typedef struct format
 	int (*call_fun)();
 } form_t;
 
-/* int.c */
-int print_integer(va_list);
-int print_number(va_list args);
-
 #endif
